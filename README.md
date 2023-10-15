@@ -1,2 +1,0 @@
-# karya
-karya Landing Page
