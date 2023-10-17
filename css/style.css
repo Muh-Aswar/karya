@@ -392,7 +392,7 @@ div.jumbotroon {
 
 .contact .contact-container .contact-box{
   position: relative;
-  padding: 0 40px;
+  padding: 0 50px;
   display: flex;
   /* background: violet; */
 }
@@ -483,11 +483,12 @@ div.jumbotroon {
 
 .contact .contact-container .contact-form .input-box input[type='submit']{
   width: 100px;
-  background: #00bcd4;
+  background: #006dd4;
   border: none;
   cursor: pointer;
   padding: 10px;
   font-size: 18px;
+  color: #fff;
 }
 
 
@@ -497,42 +498,33 @@ div.jumbotroon {
 
 
 /* ------ Profil ---------- */
-/* .profil{
-    display: flexbox;
-    width: 300px;
-    margin: auto;
-}
-.profil h2{
-    font-family: 'Montserrat';
-}
-.profil img{
-    margin-left: 30px;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    border:1px solid cadetblue ;
-    
-}
-
-.profil P{
-    font-family: 'Quicksand';
-    font-size: 1.1em;
-    text-align: left;
-} */
-
-
 /* --------- Biodata - Aside Element ---------- */
+#biodata{
+  width: 80%;
+  height: 600px;
+  /* background: #333; */
+}
+#biodata h2{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+.container-profile{
+  /* height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* background: #041e31; */
+}
 .profil{
   font-family: 'Montserrat';
-  height: 60vh;
+  height: 400px;
   width: 250px;
   /* background: yellow; */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* position: fixed;
-  margin-top: 700px;
-  z-index: 999999; */
 }
 .profil .profil-card{
   width: 100%;
@@ -540,9 +532,9 @@ div.jumbotroon {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 230px;
-  width: 100%;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  max-width: 200px;
+  /* width: 100%; */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
   border-radius: 4px;
   background: #f4f4f4;
   /* padding: 25px; */
@@ -551,7 +543,7 @@ div.jumbotroon {
   margin-top: 15px;
   margin-bottom: -30px;
   position: relative;
-  height: 120px;
+  height: 100%;
   width: 120px;
   border-radius: 50%;
   background: #333;
@@ -574,11 +566,16 @@ div.jumbotroon {
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: #fff;
+  line-height: 2em;
   background: #0071da;
 }
+/* .profil .profil-card .profil-text span{
+  margin: 3px 0;
+} */
 .profil .profil-card .profil-text .nama{
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 600;
   margin-top: 60px;
 }
 .profil .profil-card .profil-text .posisi, .perusahaan{
