@@ -78,7 +78,6 @@ body {
   width: 100%;
 }
 
-
 /* Akhir Container Kontent */
 
 
@@ -105,22 +104,17 @@ hr{
 
 /* ------- Header -------------- */
 div.jumbotroon {
-    /* background: #013a63; */
-    background: linear-gradient(#000,#00379e,#000);
+    background: #013a63;
+    /* background: linear-gradient(#000,#00379e,#000); */
     height: 700px;
     width: 100%;
     box-shadow: 1px 2px 10px #4f5c70;
-    /* background-image: url('/asset/logo2.png'); */
-    /* background-size: cover; */
-    /* background-attachment: fixed; */
-    /* background-position: top; */
-
+    background-image: url('/asset/logo2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    box-shadow:inset 30px -200px 400px #000;
 }
-div.jumbotroon img{
-  object-fit: cover;
-  opacity: 0.3;
-}
-
 
 /* -------Akhir Header  ------------ */
 
