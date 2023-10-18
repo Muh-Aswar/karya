@@ -685,7 +685,7 @@ div.jumbotroon {
 
 /*------- Responsive style -------*/
 
-@media (max-width: 600px){
+@media (max-width: 768px){
   .navbar a{
     font-size: 15px;
     /* background: #006dd4; */
