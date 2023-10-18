@@ -113,7 +113,7 @@ div.jumbotroon {
     background-size: cover;
     background-attachment: fixed;
     background-position: top;
-    box-shadow:inset 30px -200px 400px #000;
+    box-shadow:inset 0 -350px 500px #000;
 }
 
 /* -------Akhir Header  ------------ */
@@ -146,6 +146,7 @@ div.jumbotroon {
   border: 1px solid #a6eb06;
   margin-right: 15px;
   cursor: pointer;
+  letter-spacing: 0.1em;
 }
 .jumbotroon .jumbotroon-content .tombol p:nth-child(1){
   background: yellow;
@@ -680,3 +681,118 @@ div.jumbotroon {
   }
   
 /*-------  Akhir Footer  ---------- */
+
+
+/*------- Responsive style -------*/
+
+@media (max-width: 600px){
+  .navbar a{
+    font-size: 15px;
+    /* background: #006dd4; */
+  }
+
+  /*------- Jumbotron -------*/
+  .jumbotroon .jumbotroon-content{
+    top: 20%;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    /* background: violet; */
+  }
+  .jumbotroon .jumbotroon-content h2{
+    padding: 0 3%;
+    text-align: center;
+    font-size: 3em;
+    background: #0071da;
+  }
+  .jumbotroon .jumbotroon-content>p{
+    padding: 10px 50px;
+    font-size: 1.5em;
+    /* background: yellowgreen; */
+  }
+  .jumbotroon .jumbotroon-content .tombol{
+    /* background: #006dd4; */
+    justify-content: center;
+  }
+  .jumbotroon .jumbotroon-content .tombol>p{
+    width: 150px;
+  }
+  /*------- End Jumbotron -------*/
+
+  /*------- Artikel -------*/
+
+  .artikel{
+    width: 100%;
+    overflow: auto;
+    /* border: 2px solid red; */
+  }
+  .artikel .artikel-desain .artikel-kontent .desain {
+    float: left;
+    margin-right: 15px;
+    height: 120px;
+    width: 120px;
+    background: #125688;
+    padding: 3px;
+  }
+  .artikel .artikel-desain .artikel-kontent h3{
+    text-align: center;
+  }
+  .artikel-rab .artikel-kontent-RAB .img-rab {
+    float: right;
+    margin-left: 20px;
+    height: 120px;
+    width: 120px;
+    background: #e7eb21;
+    padding: 3px;
+  }
+  .artikel-rab .artikel-kontent-RAB>h3{
+    text-align: center;
+    color: #e7eb21;
+  }
+  /*------- End Artikel -------*/
+
+
+
+  /*------- End Kontak -------*/
+
+  .contact .contact-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    /* background: #00bcd4; */
+  }
+  .contact .contact-container .contact-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background: #041e31; */
+  }
+  .contact .contact-container .contact-box{
+    position: relative;
+    padding: 0 15px;
+    /* background: violet; */
+  }
+  .contact .contact-container .contact-box .contact-icon{
+    min-width: 30px;
+    height: 30px;
+    margin-top: 25px;
+  }
+  .contact-container .contact-info .contact-box img{
+    width: 10px;
+  }
+  .contact .contact-container .contact-form{
+    margin-top: 50px;
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+  }
+  .contact .contact-container .contact-form h2{
+    margin: 80px 0;
+  }
+  /*------- End Kontak -------*/
+}
+
+/*------- Akhir Responsive style -------*/
