@@ -109,7 +109,7 @@ div.jumbotroon {
     height: 700px;
     width: 100%;
     box-shadow: 1px 2px 10px #4f5c70;
-    background-image: url('/asset/logo2.png');
+    background-image: url('/asset/logo2-min.png');
     background-size: cover;
     background-attachment: fixed;
     background-position: top;
@@ -773,7 +773,7 @@ div.jumbotroon {
   .contact .contact-container .contact-box{
     position: relative;
     padding: 0 15px;
-    /* background: violet; */
+    background: violet;
   }
   .contact .contact-container .contact-box .contact-icon{
     min-width: 30px;
@@ -793,6 +793,22 @@ div.jumbotroon {
     margin: 80px 0;
   }
   /*------- End Kontak -------*/
+
+
+
+  /*------- Profile / Biodata -------*/
+
+  .container-profile{
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    /* background: #041e31; */
+  }
+
+  /*------- End Profile / Biodata -------*/
 }
 
 /*------- Akhir Responsive style -------*/
