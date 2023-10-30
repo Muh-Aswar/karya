@@ -703,7 +703,7 @@ div.jumbotroon {
     padding: 0 3%;
     text-align: center;
     font-size: 3em;
-    background: #0071da;
+    /* background: #0071da41; */
   }
   .jumbotroon .jumbotroon-content>p{
     padding: 10px 50px;
@@ -753,7 +753,11 @@ div.jumbotroon {
 
 
 
-  /*------- End Kontak -------*/
+  /*------- Kontak -------*/
+  .contact{
+    background: #0071da;
+    padding: 0 35px;
+  }
 
   .contact .contact-container{
     width: 100%;
@@ -762,13 +766,13 @@ div.jumbotroon {
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
-    /* background: #00bcd4; */
+    background: #00bcd4;
   }
   .contact .contact-container .contact-info{
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* background: #041e31; */
+    background: #041e31;
   }
   .contact .contact-container .contact-box{
     position: relative;
