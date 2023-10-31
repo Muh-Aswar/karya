@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 </head>
 
@@ -277,71 +279,58 @@
         </div>
         <aside id="biodata">
             <h2>CREW</h2><hr>
-            <div class="container-profile">
-                <div class="profil">
-                    <div class="profil-card">
-                        <div class="profil-img">
-                            <img src="asset/profile1.png" alt="Foto" class="gambar">
+            <div class="swiper mySwiper profil">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="profile-box">
+                            <div class="profil-card">
+                                <img src="asset/profile.png" alt="" class="profile-img">
+                            </div>
+                            <div class="profile-text">
+                                <p>Firman</p>
+                                <p>Direktur</p>
+                            </div>  
                         </div>
-                        <div class="profil-text">
-                            <span class="nama">Firman</span><br>
-                            <span class="posisi">Direktur</span>
-                            <span class="perusahaan">Cv.Karya Enginer</span>
-                            <!-- <div class="profil-tombol">
-                                <span class="tombol">Hubungi</span>
-                                <span class="tombol">Portfolio</span>
-                            </div> -->
-                        </div>
+                                              
                     </div>
-                </div>
-                <div class="profil">
-                    <div class="profil-card">
-                        <div class="profil-img">
-                            <img src="asset/profile1.png" alt="Foto" class="gambar">
+                    <div class="swiper-slide">
+                        <div class="profile-box">
+                            <div class="profil-card">
+                                <img src="asset/profile.png" alt="" class="profile-img">
+                            </div>
+                            <div class="profile-text">
+                                <p>Sulkifli</p>
+                                <p>Engineer</p>
+                            </div>  
                         </div>
-                        <div class="profil-text">
-                            <span class="nama">Fandi</span><br>
-                            <span class="posisi">Senior Engineer</span>
-                            <span class="perusahaan">Cv.Karya Enginer</span>
-                            <!-- <div class="profil-tombol">
-                                <span class="tombol">Hubungi</span>
-                                <span class="tombol">Portfolio</span>
-                            </div> -->
-                        </div>
+                                              
                     </div>
+                    <div class="swiper-slide">
+                        <div class="profile-box">
+                            <div class="profil-card">
+                                <img src="asset/profile.png" alt="" class="profile-img">
+                            </div>
+                            <div class="profile-text">
+                                <p>Fandi</p>
+                                <p>Engineer</p>
+                            </div>  
+                        </div>                    
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="profile-box">
+                            <div class="profil-card">
+                                <img src="asset/profile.png" alt="" class="profile-img">
+                            </div>
+                            <div class="profile-text">
+                                <p>Hamka Hamid</p>
+                                <p>Surveyor</p>
+                            </div>  
+                        </div>                    
+                    </div>                  
                 </div>
-                <div class="profil">
-                    <div class="profil-card">
-                        <div class="profil-img">
-                            <img src="asset/profile1.png" alt="Foto" class="gambar">
-                        </div>
-                        <div class="profil-text">
-                            <span class="nama">Sulkifli Malik</span><br>
-                            <span class="posisi">Engineer</span>
-                            <span class="perusahaan">Cv.Karya Enginer</span>
-                            <!-- <div class="profil-tombol">
-                                <span class="tombol">Hubungi</span>
-                                <span class="tombol">Portfolio</span>
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="profil">
-                    <div class="profil-card">
-                        <div class="profil-img">
-                            <img src="asset/profile1.png" alt="Foto" class="gambar">
-                        </div>
-                        <div class="profil-text">
-                            <span class="nama">Hamka Hamid</span><br>
-                            <span class="posisi">Surveyor</span>
-                            <span class="perusahaan">Cv.Karya Enginer</span>
-                            <!-- <div class="profil-tombol">
-                                <span class="tombol">Hubungi</span>
-                                <span class="tombol">Portfolio</span>
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
             </div>
         </aside>
     </div>
@@ -364,5 +353,22 @@
 
     <script src="js/script.js"></script>
     <script src="js/jquery.min.js" type="text"></script>
+     <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
 </body>
 </html>

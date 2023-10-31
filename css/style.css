@@ -500,125 +500,69 @@ div.jumbotroon {
 /* ------ Profil ---------- */
 /* --------- Biodata - Aside Element ---------- */
 #biodata{
-  width: 80%;
-  height: 600px;
-  /* background: #333; */
+  font-family: 'Quicksand';
+
 }
-#biodata h2{
+.swiper {
+  width: 650px;
+}
+
+.swiper-slide {
   text-align: center;
-  font-size: 36px;
-  font-weight: bold;
-}
-.container-profile{
-  /* height: 100%; */
+  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  /* background: #041e31; */
 }
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .profil{
-  font-family: 'Montserrat';
-  height: 400px;
-  width: 250px;
   /* background: yellow; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 80px;
 }
-.profil .profil-card{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  max-width: 200px;
-  /* width: 100%; */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
-  border-radius: 4px;
-  background: #f4f4f4;
-  /* padding: 25px; */
+.profil .profile-box{
+  max-width: 250px;
+  margin: auto;
+  padding: 12px 0;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  /* border-bottom: 2px solid #405807; */
 }
-.profil .profil-card .profil-img{
-  margin-top: 15px;
-  margin-bottom: -30px;
-  position: relative;
-  height: 100%;
-  width: 120px;
-  border-radius: 50%;
-  background: #333;
-  padding: 6px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.profil .profil-card .profil-img .gambar{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 2px solid #fff;
-}
-.profil .profil-card .profil-text{
-  height: 200px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  color: #fff;
-  line-height: 2em;
-  background: #0071da;
-}
-/* .profil .profil-card .profil-text span{
-  margin: 3px 0;
+/* .profil .profil-card{
+  border: 2px solid #df2a2a;
 } */
-.profil .profil-card .profil-text .nama{
-  font-size: 22px;
-  font-weight: 600;
-  margin-top: 60px;
+.profil .profile-img{
+  width: 140px;
+  height: 140px;
+  margin-bottom: -20px;
 }
-.profil .profil-card .profil-text .posisi, .perusahaan{
-  font-size: 15px;
-  font-weight: 400
+.profile-text{
+  /* border: 2px solid #000; */
+  padding: 30px 0;
 }
-.profil .profil-card .profil-tombol{
-  margin-top: 25px;
-  /* background: #46e905; */
-}
-.profil .profil-card .profil-tombol .tombol{
-  padding: 5px 12px;
-  margin:10px;
-  font-size: 12px;
-  font-weight: 400;
-  cursor: pointer;
-  color: #fff;
-  background: #125688;
-  transition: all 0.5s ease;
-}
-.profil .profil-card .profil-tombol span:nth-child(1){
-  background: #c4c9c9;
-  color: #125688;
-  border: 1px solid #125688;
-}
-/* Tombol Profil Hover Efek */
-.profil .profil-card .profil-tombol span:nth-child(1):hover{
-  background: #125688;
-  color: #fff;
-  border: 1px solid #fff;
-}
-.profil .profil-card .profil-tombol span:nth-child(2):hover{
-  background: #c4c9c9;
-  color: #125688;
-  /* border: 1px solid #125688; */
+.profile-text p:nth-child(1){
+  font-weight: 800;
+  font-size: 1.2em;
 }
 
 
-
-
-
-
+/* --------- Akhir Biodata - Aside Element ---------- */
 /* ----- Akhir Profil------ */
+
+
+
+
+
+
+
+
+
+
+
+
 /*------- Footer  -------- */
 
 .artikel-footer {
@@ -755,7 +699,7 @@ div.jumbotroon {
 
   /*------- Kontak -------*/
   .contact{
-    background: #0071da;
+    /* background: #0071da; */
     padding: 0 35px;
   }
 
@@ -766,18 +710,18 @@ div.jumbotroon {
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
-    background: #00bcd4;
+    /* background: #00bcd4; */
   }
   .contact .contact-container .contact-info{
     width: 100%;
     display: flex;
     flex-direction: column;
-    background: #041e31;
+    /* background: #041e31; */
   }
   .contact .contact-container .contact-box{
     position: relative;
     padding: 0 15px;
-    background: violet;
+    /* background: violet; */
   }
   .contact .contact-container .contact-box .contact-icon{
     min-width: 30px;
@@ -809,7 +753,11 @@ div.jumbotroon {
     align-items: center;
     align-content: center;
     overflow: hidden;
-    /* background: #041e31; */
+    background: #041e31;
+  }
+  .profil{
+    display: none;
+    background: #0071da;
   }
 
   /*------- End Profile / Biodata -------*/
