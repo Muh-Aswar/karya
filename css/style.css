@@ -119,6 +119,18 @@ div.jumbotroon {
 /* -------Akhir Header  ------------ */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*-----------JUMBOTRON KONTEN-----------*/
 .jumbotroon .jumbotroon-content{
   position: absolute;
@@ -169,6 +181,20 @@ div.jumbotroon {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------  ARTIKEL  ------------ */
 
 
@@ -177,6 +203,10 @@ div.jumbotroon {
     border: 1px solid red;
 } */
 
+article{
+  font-family: 'Montserrat';
+  line-height: 1.8rem;
+}
 .artikel .artikel-desain {
     width: 100%;
     overflow: auto;
@@ -209,7 +239,7 @@ div.jumbotroon {
   /* background: yellow; */
 }
 .artikel-desain .artikel-kontent p{
-    text-align: justify;
+    text-align: left;
     letter-spacing: 0.07em;
 }
 
@@ -239,22 +269,33 @@ div.jumbotroon {
   text-align: left;
 }
 .artikel-rab .artikel-kontent-RAB p{
-    text-align: justify;
-    letter-spacing: 0.07em;
+    text-align: left;
+    letter-spacing: 0.02rem;
     /* background: whitesmoke; */
 }
-.artikel-rab .artikel-kontent-RAB ol{
-  font-size: 1em;
-  letter-spacing: 0.07em;
+.artikel-rab .artikel-kontent-RAB ol li{
+  font-size: 1rem;
+  letter-spacing: 0.02rem;
+  line-height: 1.3rem;
 }
 
 .artikel-rab ol,h3{
-    font-size: 1.3em;
+    font-size: 1.3rem;
 }
 
 
 
 /* -----------Akhir Artikel ------------ */
+
+
+
+
+
+
+
+
+
+
 
 
 /* ----------  Galery  -------- */
@@ -338,6 +379,12 @@ div.jumbotroon {
   }
 
 /* ------ Akhir  Galery  -------- */
+
+
+
+
+
+
 
 
 
@@ -496,6 +543,14 @@ div.jumbotroon {
 
 
 
+
+
+
+
+
+
+
+
 /* ------ Profil ---------- */
 /* --------- Biodata - Aside Element ---------- */
 #biodata{
@@ -557,10 +612,6 @@ div.jumbotroon {
 
 
 
-
-
-
-
 /*------- Footer  -------- */
 
 .artikel-footer {
@@ -587,7 +638,7 @@ div.jumbotroon {
 
 /* ------Sosmed Icon----- */
 .fa {
-    padding: 20px;
+    padding: 8px;
     font-size: 30px;
     width: 20px;
     text-align: center;
@@ -623,6 +674,26 @@ div.jumbotroon {
   }
   
 /*-------  Akhir Footer  ---------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*------- Responsive style -------*/
@@ -668,6 +739,10 @@ div.jumbotroon {
     overflow: auto;
     /* border: 2px solid red; */
   }
+  .artikel .artikel-desain .artikel-kontent,
+  .artikel-rab .artikel-kontent-RAB{
+    width: 85%;
+  }
   .artikel .artikel-desain .artikel-kontent .desain {
     float: left;
     margin-right: 15px;
@@ -687,11 +762,37 @@ div.jumbotroon {
     background: #e7eb21;
     padding: 3px;
   }
+  .artikel-desain .artikel-kontent p{
+    text-align: justify;
+    font-size: 0.8rem;
+    letter-spacing: 0.01rem;
+  }
+
+  .artikel-rab .artikel-kontent-RAB p{
+    text-align: justify;
+    font-size: 0.8rem;
+    letter-spacing: 0.01rem;
+  }
+  .artikel-rab .artikel-kontent-RAB ol li{
+    font-size: 0.8rem;
+    letter-spacing: 0.02rem;
+    line-height: 1.3rem;
+  }
+
+  .artikel-rab ol,h3{
+      font-size: 0.01rem;
+  }
+  
   .artikel-rab .artikel-kontent-RAB>h3{
     text-align: center;
     color: #e7eb21;
   }
   /*------- End Artikel -------*/
+
+
+
+
+
 
 
 
@@ -778,12 +879,35 @@ div.jumbotroon {
     overflow: hidden;
     background: #041e31;
   }
-  /* .profil{
-    display: none;
-    background: #0071da;
-  } */
+
 
   /*------- End Profile / Biodata -------*/
+
+
+
+
+    /*------- Footer -------*/
+    .artikel-footer p {
+      font-family: 'Montserrat';
+      font-size: 15px;
+      text-align: center;
+      line-height: 0.5rem;
+  }
+  
+  .fa {
+      padding: 8px;
+      font-size: 15px;
+      width: 20px;
+      text-align: center;
+      text-decoration: none;
+      margin: 10px 12px;
+      border-radius: 50%;
+    }
+
+
+    /*------- End Footer -------*/
+
+
 }
 
 /*------- Akhir Responsive style -------*/
