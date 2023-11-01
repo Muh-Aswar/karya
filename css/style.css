@@ -264,7 +264,6 @@ div.jumbotroon {
 }
 .dokumentasi .dokumentasi-kontent{
   width: 80%;
-  /* height: auto; */
   margin: auto;
   /* background: #125688; */
 }
@@ -272,9 +271,11 @@ div.jumbotroon {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 1em;
+    /* background: yellow; */
 }
 .dokumentasi .dokumentasi-kontent .daftar-gambar {
       position: relative;
+      /* background: violet; */
 }
 .dokumentasi .dokumentasi-kontent .titel-gambar {
     font-size: 1.5em;
@@ -303,14 +304,12 @@ div.jumbotroon {
     border: 1px solid #041e31;
   }
   
-.dokumentasi .dokumentasi-kontent img {
-  width: 100%; 
-  /* need to overwrite inline dimensions */
-  height: 200px;
-    /* border: 1px solid #333; */
-    /* padding: 20px; */
+  .dokumentasi .dokumentasi-kontent img {
+    width: 100%; 
+    /* need to overwrite inline dimensions */
+    height: 200px;
     /* background: #125688; */
-  }
+    }
   .dokumentasi .dokumentasi-kontent .lokasi-gambar img {
     filter: blur(0px);
     transition: filter 0.3s ease-in;
@@ -501,10 +500,9 @@ div.jumbotroon {
 /* --------- Biodata - Aside Element ---------- */
 #biodata{
   font-family: 'Quicksand';
-
 }
 .swiper {
-  width: 650px;
+  max-width: 650px;
 }
 
 .swiper-slide {
@@ -744,8 +742,33 @@ div.jumbotroon {
 
 
 
-  /*------- Profile / Biodata -------*/
 
+
+
+
+
+  /*------- Galery -------*/
+  .dokumentasi .dokumentasi-kontent .container-galery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1em;
+}
+  /*------- End Galery -------*/
+
+
+
+
+
+
+
+
+
+
+
+  /*------- Profile / Biodata -------*/
+  #biodata{
+    width: 250px;
+  }
   .container-profile{
     /* height: 100%; */
     display: flex;
@@ -755,10 +778,10 @@ div.jumbotroon {
     overflow: hidden;
     background: #041e31;
   }
-  .profil{
+  /* .profil{
     display: none;
     background: #0071da;
-  }
+  } */
 
   /*------- End Profile / Biodata -------*/
 }
