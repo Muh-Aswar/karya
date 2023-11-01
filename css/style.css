@@ -729,6 +729,7 @@ article{
   }
   .jumbotroon .jumbotroon-content .tombol>p{
     width: 150px;
+    margin: 0 5px;
   }
   /*------- End Jumbotron -------*/
 
@@ -778,10 +779,6 @@ article{
     letter-spacing: 0.02rem;
     line-height: 1.3rem;
   }
-
-  .artikel-rab ol,h3{
-      font-size: 0.01rem;
-  }
   
   .artikel-rab .artikel-kontent-RAB>h3{
     text-align: center;
@@ -819,13 +816,14 @@ article{
   }
   .contact .contact-container .contact-box{
     position: relative;
-    padding: 0 15px;
+    padding-top: 15px;
     /* background: violet; */
   }
   .contact .contact-container .contact-box .contact-icon{
     min-width: 30px;
     height: 30px;
     margin-top: 25px;
+
   }
   .contact-container .contact-info .contact-box img{
     width: 10px;
