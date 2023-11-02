@@ -742,8 +742,9 @@ article{
   .navbar-wraper .menu-nama{
     display: flex;
     font-family: "Black-ops";
+    font-size: 18px;
     letter-spacing: 0.2rem;
-    color: #55ACEE;
+    color: #ffffff;
   }
   .navbar-wraper .menu-list{
     display: flex;
