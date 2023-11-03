@@ -149,18 +149,6 @@ div.jumbotroon {
 /* -------Akhir Header  ------------ */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*-----------JUMBOTRON KONTEN-----------*/
 .jumbotroon .jumbotroon-content{
   position: absolute;
@@ -190,10 +178,17 @@ div.jumbotroon {
   cursor: pointer;
   letter-spacing: 0.1em;
 }
+.jumbotroon-content .tombol a{
+  color: #fff;
+  text-decoration: none;
+}
 .jumbotroon .jumbotroon-content .tombol p:nth-child(1){
   background: yellow;
-  color: black;
 }
+.jumbotroon-content .tombol p:nth-child(1) a{
+  color: #000;
+}
+
 .jumbotroon .jumbotroon-content .tombol p:hover{
   background: #fff;
   border: 1px solid #fff;
@@ -205,7 +200,6 @@ div.jumbotroon {
   color:#125688 ;
   transition: 0.5s;
 }
-
 
 /*-----------AKHIR JUMBOTRON KONTEN-----------*/
 
