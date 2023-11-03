@@ -4,6 +4,28 @@
   font-family: "Black-ops";
   src: url(BlackOpsOne-Regular.ttf);
 }
+/* -------- Main -------- */
+html{
+  scroll-behavior: smooth;
+}
+main {
+  margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+  /* border: 0px solid black; */
+  font-family: 'Montserrat';
+}
+h2{
+  text-align: center;
+  font-size: 3em;
+  font-family: "Quicksand";
+}
+hr{
+  margin-bottom: 50px;
+}
+
+/* --------Akhir Main ------- */
+
 body {
     font-family:'Black Ops', 'Montserrat', 'Quicksand' Arial, Helvetica, sans-serif; 
     margin:0;
@@ -13,9 +35,6 @@ body {
     /* background-color: rgb(233, 243, 247); */
 
   }
-h2{
-  font-family: 'Quicksand';
-}
 
 /* ----------  NAVIGASI  --------- */
 
@@ -91,6 +110,15 @@ h2{
 
 /* -------Akhir Navigasi-----------*/
 
+
+
+
+
+
+
+
+
+
 /* -------- Container Body -------- */
 
 .container-body{
@@ -113,39 +141,43 @@ h2{
 /* Akhir Container Kontent */
 
 
-/* -------- Main -------- */
 
-main {
-    margin: auto;
-    width: 100%;
-    box-sizing: border-box;
-    /* border: 0px solid black; */
-    font-family: 'Montserrat';
 
-}
-h2{
-    text-align: center;
-    font-size: 3em;
-}
-hr{
-    margin-bottom: 50px;
-}
 
-/* --------Akhir Main ------- */
+
+
+
+
+
+
+
+
+
+
 
 
 /* ------- Header -------------- */
 div.jumbotroon {
-    background: #013a63;
+    /* background: #013a63; */
     /* background: linear-gradient(#000,#00379e,#000); */
     height: 700px;
     width: 100%;
-    box-shadow: 1px 2px 10px #4f5c70;
-    background-image: url('/asset/logo2-min.png');
+    /* box-shadow: 1px 2px 10px #4f5c70; */
+    /* background-image: url('/asset/logo2-min.png');
     background-size: cover;
     background-attachment: fixed;
     background-position: top;
-    box-shadow:inset 0 -350px 500px #000;
+    box-shadow:inset 0 -350px 500px #000; */
+    overflow: hidden;
+}
+.jumbotroon .jumbotroon-bg{
+  background: #000;
+  box-shadow:inset 0 -350px 500px #000;
+}
+
+.jumbotroon .jumbotroon-bg img{
+  background: #052874;
+  opacity: 0.5;
 }
 
 /* -------Akhir Header  ------------ */
